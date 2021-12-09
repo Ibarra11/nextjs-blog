@@ -29,6 +29,14 @@
   border-radius: 9999px;
 }
 
+.triangle{
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  border: 1px solid red;
+  clip-path: polygon(50% 0, 100% 0, 0% 100%);
+}
+
 .colorInherit {
   color: inherit;
 }
